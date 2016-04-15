@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#10b4a5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:maxLines="2"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/videoname"
+        android:ellipsize="end"/>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textSize="18sp"
+                android:text="Time : "
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/timeTitle" />
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/timeContent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textSize="18sp"
+                android:text="Size : "
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/sizeTitle" />
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/sizeContent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textSize="18sp"
+                android:text="Duration : "
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/durationTitle" />
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/durationContent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textSize="18sp"
+                android:text="Resolution : "
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/resolutionTitle" />
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/resolutionContent" />
+        </LinearLayout>
+
+</LinearLayout>

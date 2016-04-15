@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tuankhac.activity.MainActivity" >
+
+    <item
+        android:id="@+id/action_open_favorite"
+        android:showAsAction="ifRoom"
+        android:title="Open favorite">
+        <menu>
+            <item android:id="@+id/english_lession"/>
+        </menu>
+    </item>
+    
+    <item
+        android:id="@+id/action_open_network"
+        android:showAsAction="ifRoom"
+        android:title="Open network"/>
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="always"
+        android:title="Search">
+    </item>
+    <item
+        android:id="@+id/action_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="always"
+        android:title="Share">
+    </item>
+
+</menu>

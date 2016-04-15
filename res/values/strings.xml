@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">MVPlayer</string>
+    <string name="title_audio">Let you go anh yeu em chon odi hon tat ca nhung gi co the trn doi nay</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_player">Video Player</string>
+    <string name="title_activity_share_video">Share Video Activity</string>
+   
+    <string name="search">Search</string>
+    <string name="failed">Failed to initialize Youtube Player</string>
+    
+    <!-- add from Rotate3dAnimation -->
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading&#8230;</string>
+    <string name="file_size">1.5 mb</string>
+    <string name="desc">this is image view</string>
+    <string name="text_view">100</string>
+    <string name="action_option">Option</string>
+
+</resources>

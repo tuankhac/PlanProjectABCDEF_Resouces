@@ -44,6 +44,7 @@
 
         <service android:name="com.tuankhac.video.PopupPlayer" />
         <service android:name="com.tuankhac.videotrimmer.VideoTrimmingService" />
+        <service android:name="com.tuankhac.video.ServiceGetFile"></service>
 
         <activity
             android:name="com.tuankhac.video.ShareVideoActivity"

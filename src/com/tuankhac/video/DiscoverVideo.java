@@ -5,6 +5,7 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.media.MediaMetadataRetriever;
@@ -21,6 +22,7 @@ public class DiscoverVideo extends
 
 	public DiscoverVideo(VideoMainActivity activity) {
 		this.activity = activity;
+		//this.activity.startService(new Intent(activity,ServiceGetFile.class));
 	}
 
 	SweetAlertDialog loading;
@@ -56,6 +58,9 @@ public class DiscoverVideo extends
 	protected ArrayList<VideoInfo> doInBackground(File... params) {
 		ArrayList<VideoInfo> arrVideo = new ArrayList<VideoInfo>();
 		getAllFile(params[0]);
+		
+		//filelist = ServiceGetFile.filelist;
+		
 		VideoInfo temp = null;
 		for (File file : filelist) {
 			temp = new VideoInfo();

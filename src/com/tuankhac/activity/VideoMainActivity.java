@@ -30,6 +30,7 @@ import com.tuankhac.object.VideoInfo;
 import com.tuankhac.video.DiscoverVideo;
 import com.tuankhac.video.GridAdapter;
 import com.tuankhac.video.PlayerActivity;
+import com.tuankhac.video.ServiceGetFile;
 
 @SuppressLint("DefaultLocale")
 public class VideoMainActivity extends Activity {

@@ -370,16 +370,18 @@ containing a value of this type.
     public static final class mipmap {
         public static final int brightness=0x7f030000;
         public static final int fullscreen=0x7f030001;
-        public static final int icon_launcher=0x7f030002;
-        public static final int pause=0x7f030003;
-        public static final int play=0x7f030004;
-        public static final int reducescreen=0x7f030005;
-        public static final int repeat_default=0x7f030006;
-        public static final int repeat_focus=0x7f030007;
-        public static final int resize=0x7f030008;
-        public static final int turnoff=0x7f030009;
-        public static final int volum=0x7f03000a;
-        public static final int watch_like_youtube=0x7f03000b;
+        public static final int icon_512=0x7f030002;
+        public static final int icon_512_=0x7f030003;
+        public static final int icon_launcher=0x7f030004;
+        public static final int pause=0x7f030005;
+        public static final int play=0x7f030006;
+        public static final int reducescreen=0x7f030007;
+        public static final int repeat_default=0x7f030008;
+        public static final int repeat_focus=0x7f030009;
+        public static final int resize=0x7f03000a;
+        public static final int turnoff=0x7f03000b;
+        public static final int volum=0x7f03000c;
+        public static final int watch_like_youtube=0x7f03000d;
     }
     public static final class string {
         public static final int LOADING=0x7f08000a;
